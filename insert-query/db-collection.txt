@@ -1,0 +1,33 @@
+//Create DB
+use newairlines
+
+//Create Collection
+db.createCollection("adminMaster")
+db.createCollection("companyMaster")
+db.createCollection("categoryMaster")
+db.createCollection("jobs")
+db.createCollection("userMaster")
+
+
+//Drop collection
+db.companyMaster.drop()
+
+----------------------------------------------------
+//Insert records in Collection (adminMaster)
+
+db.adminMaster.insert(
+   {
+      username: 'admin', 
+      password: 'admin#247',
+      token: '',
+      create_date: '2021-09-09'
+      
+   })
+
+
+
+//Check
+db.adminMaster.find().pretty() 
+db.companyMaster.find().pretty()
+db.categoryMaster.find().pretty()
+db.jobs.find().pretty()

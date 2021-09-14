@@ -1,0 +1,837 @@
+/**********GLOBAL             
+***********************************/              
+body {              
+           
+    color: #444444;              
+}             
+.translator-tool-header {             
+    clear: both;             
+               
+}             
+a, #featured-job-listing ul li a h3, #featured-job-listing ul li a .h3, #job-listing .listings .job-summary h3, #job-listing .listings .job-summary .h3 {              
+    color: #0082cb;              
+    transition: all 0.3s ease;              
+}              
+a:hover,#featured-job-listing ul li a h3:hover {              
+    color: #ad172b;              
+}              
+h1, h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {              
+    font-weight: 500;              
+}             
+h2 {             
+    color: #005573;             
+    font-size: 2em;              
+}              
+.site {             
+    max-width: 1200px;             
+             
+}             
+.category-header {             
+    max-width: 1200px;             
+    margin: auto;             
+    background: transparent;             
+}             
+.category-header h2{             
+    color: #444444;             
+    font-weight: normal;             
+}             
+#featured-stats.super{            
+text-align: center;            
+}            
+/**********GLOBAL END              
+***********************************/              
+             
+             
+/**********HEADER              
+***********************************/              
+#header {             
+    min-height: 100px;             
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .2);             
+}             
+             
+.header-content #logo {             
+    padding: 18px 10px;             
+    max-width: 260px;             
+}             
+.header-content #logo img {             
+    max-height: 100%;             
+}             
+.header-content .call-to-action {             
+    margin-top: 0px;             
+    position: absolute;             
+    right: 0;             
+    top: 50%;             
+    transform: translateY(-50%);             
+}             
+/**********HEADER END             
+***********************************/             
+             
+/**********JAQC SEARCH             
+***********************************/              
+#home-page #job-alert-search-form.expanded-img {             
+    background: rgba(0, 130, 203,0.5);             
+}             
+#home-page #job-alert-search-form fieldset .form-button button.primary {             
+    color: #fff;             
+    background: transparent;             
+    border: 1px solid;             
+}             
+#home-page #job-alert-search-form fieldset .form-button button.primary:hover {             
+    background: rgba(255, 255, 255, .2);             
+}             
+/**********HERO IMAGE              
+***********************************/              
+             
+.hero-expanded {             
+    position: absolute;             
+    height: 550px;             
+    width: 100%;             
+    background: url("img/hero-22723.jpg") no-repeat center top / cover;             
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);             
+}             
+             
+#hero {             
+    background: transparent;             
+    height: 550px;             
+}             
+#hero #job-search-form form fieldset .primary {             
+    padding: 9px;             
+    width: 100%;             
+    background: transparent;             
+    border: 1px solid #fff;             
+}             
+#hero #job-search-form form fieldset .primary:hover {             
+    background: #fff;             
+    border: 1px solid #fff;             
+    color: #0082cb;             
+}             
+#hero .site-name-tag {             
+    text-align: left;             
+    top: 280px;             
+    left: 10px;             
+}             
+#hero .site-name-tag h1 {             
+    color: #fff;             
+    font-size: 3.5em;             
+    text-shadow: 0 1px 7px rgba(0,0,0,.8);             
+}             
+#hero .site-name-tag em {             
+    color: #fff;             
+    text-shadow: 0 1px 7px rgba(0,0,0,.8);             
+}             
+/**********HERO IMAGE END             
+***********************************/               
+             
+/**********NAV              
+***********************************/               
+             
+.header-content #menu {             
+    float: none;             
+    text-align: center;             
+    display: block;             
+    position: absolute;             
+    right: 0;             
+    top: 50%;             
+    transform: translateY(-50%);             
+}             
+.home-page .header-content #menu {             
+    right: 125px;             
+               
+}             
+.header-content #menu>ul {                                    
+    margin-bottom: 0;                                    
+}                                    
+.header-content #menu li:hover {                                    
+    background-color: transparent;                                    
+}              
+.header-content #menu li:hover a.mobile-hide{                                    
+    color: #eda94f;                                    
+}                                  
+.header-content #menu li a {             
+    font-size: 16px;             
+    padding: 0 20px;             
+    margin: 0;             
+    line-height: 100px;             
+    color: #444444;             
+}                                   
+.header-content #menu li ul {                                    
+    background-color: #fff;                                    
+    min-width: 250px;             
+    -moz-box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);              
+    -webkit-box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);              
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);                          
+}                                    
+.header-content #menu li ul.sub-navigation li a {                                    
+    border-top: 0;                                    
+    line-height: normal;                                    
+    text-align: left;                                    
+    padding: 10px 30px;               
+    font-size:14px;                                                       
+}                                    
+.header-content #menu ul.sub-navigation li:hover {                                    
+    background-color: rgba(255, 255, 255, 0.2);                                    
+}              
+.header-content #menu ul.sub-navigation li:hover a{             
+    color: #eda94f;                  
+}                                   
+/**********NAV END             
+***********************************/               
+             
+             
+/**********BUTTONS              
+***********************************/              
+.primary, .secondary, .tertiary{             
+    font-size: 1.1em;             
+    background-color: #5b933a;             
+    color: #FFF;             
+    display: inline-block;             
+    text-decoration: none;             
+    border: none;             
+    padding: 7px 25px;             
+    cursor: pointer;             
+    text-align: center;             
+}             
+.secondary:hover, .tertiary:hover{             
+    background-color: #eda94f;             
+}             
+.call-to-action .secondary {             
+    padding: 7px 25px;             
+}             
+             
+/**********BUTTONS END              
+***********************************/              
+             
+#featured-stats.super .interior {
+    max-width: 1200px;
+}      
+             
+/**********FEATURED JOBS              
+***********************************/               
+section#featured-jobs {             
+    padding-bottom: 40px;             
+}             
+.featured-job-promo {             
+    width: 30%;             
+        min-height: auto;             
+}             
+#featured-job-listing {             
+    width: 67%;             
+    background: transparent;             
+}             
+#featured-job-listing ul {             
+    padding: 20px 0;             
+    z-index: 99;             
+    position: relative;             
+    margin: auto;             
+    column-count: 2;             
+    text-align: left;             
+    padding-top: 0;             
+}                                                  
+#featured-job-listing ul li {             
+    border-bottom: 1px solid #ccc;             
+    padding: 15px 0;             
+    margin: 0;             
+}                                                 
+#featured-job-listing ul li:nth-child(3) {                                                  
+    border-bottom: none;                                                  
+}                                                  
+#featured-job-listing ul li:last-child {                                                  
+   border-bottom: none;                                                  
+}             
+section#featured-jobs  .sideboard-adspace {             
+    padding: 20px 10px;             
+    margin: 0 auto;             
+}             
+section#featured-jobs .sideboard-adspace .job-alert-signup {             
+    max-width: 300px;             
+    margin: auto;             
+}             
+section#featured-jobs .sideboard-adspace em {             
+    position: relative;             
+    bottom: 0;             
+    box-sizing: border-box;             
+    background: transparent;             
+    border-bottom: 0;             
+    border-top: 0;             
+    padding: 0;             
+    border: 0;             
+}             
+section#featured-jobs .sideboard-adspace div>div {             
+    background: transparent;             
+    height: auto;             
+    border: none;             
+    margin-bottom: 10px;             
+    position: relative;             
+    box-sizing: border-box;             
+}             
+section#featured-jobs .sideboard-adspace a {             
+    width: auto;             
+    font-size: 1.1em;             
+    padding: 10px 25px;             
+}             
+section#featured-jobs .sideboard-adspace img {             
+    max-width: 100%;             
+    height: auto;             
+    display: block;             
+    margin: auto;             
+}             
+section#featured-jobs .sideboard-adspace.banner {             
+    padding-top: 0;             
+}             
+/**********FEATURED JOBS END               
+***********************************/               
+             
+/**********FEATURED SERVICES              
+***********************************/              
+#home-page #featured-services {             
+    max-width: 100%;             
+    background: #f5f4f4;             
+    padding: 50px 0;             
+}             
+#featured-services .category-header h2 {             
+    text-align: center;             
+    padding: 0;             
+}             
+#featured-services .interior {             
+    max-width: 1000px;             
+    margin:auto;             
+    background: transparent;             
+}             
+#featured-services .interior ul li {             
+    background: transparent;             
+    position: relative;             
+}             
+#featured-services .interior ul li span.h5 {             
+    position: absolute;             
+    left: 0;             
+    right: 0;             
+    bottom: 0px;             
+    z-index: 999;             
+    background: #5b933a;             
+    max-width: 230px;             
+    margin: auto;             
+    padding: 5px 0;             
+    color: #fff;             
+}             
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {             
+    background: #5b933a;             
+}             
+/**********FEATURED SERVICES END             
+***********************************/              
+             
+/**********BLANK MODULE                
+***********************************/                 
+section#blank-module {                
+       max-width: 100%;                
+       padding-bottom: 25px;                
+    position: relative;                
+    background: #003453;                
+    text-align: center;                
+}                
+#blank-module .interior {                
+    padding: 20px;                
+    background: transparent;                
+    color: #fff;                
+    max-width: 960px;                
+    margin: 0 auto;             
+    font-weight: 500;             
+    font-size: 14px;             
+}                
+/**********BLANK MODULE END                 
+***********************************/               
+             
+/**********FEATURED COURSES             
+***********************************/              
+#featured-courses {              
+    width:auto;             
+    background: url(img/course-bg.jpg) no-repeat center top / cover;             
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.8);             
+    max-width: 100%;             
+}             
+#featured-courses .category-header h2 {             
+    text-align: center;             
+    padding: 0;             
+}             
+#featured-courses .call-to-action {             
+    float: none;             
+    text-align: center;             
+}             
+#featured-courses .course_cards {             
+    padding: 20px 0;             
+}             
+#featured-courses .interior {             
+    width: auto;             
+    max-width: 1200px;             
+    margin: auto;             
+}             
+/**********FEATURED COURSES END             
+***********************************/              
+             
+/**********FEATURED EMPLOYERS              
+***********************************/              
+#featured-employers .interior {             
+    background: transparent;             
+    padding: 10px;             
+}             
+#featured-employers .category-header h2 {             
+    text-align: center;             
+    padding: 0;             
+}             
+#featured-employers .call-to-action {             
+    font-size: 1.1em;             
+    float: none;             
+    text-align: center;             
+    max-width: 300px;             
+    margin: auto;             
+}             
+#featured-employers .call-to-action .secondary {             
+    text-align: center;             
+    float: none;             
+    display: inline-block;             
+    margin: 15px auto 0;             
+             
+}             
+#featured-employers #featured-employer-logos ul li a:hover {             
+    border: none;             
+}             
+/**********FEATURED EMPLOYERS END              
+***********************************/              
+             
+/**********FEEDBACK              
+***********************************/              
+#feedback {             
+    padding-top: 25px;             
+    border-top: 1px solid #ccc;             
+    position: relative;             
+    max-width: 100%;             
+    position: relative;             
+}             
+#feedback .interior {             
+    background: transparent;             
+}             
+#feedback .interior .h4 {             
+    font-weight: normal;             
+    font-size: 2em;             
+             
+}             
+/**********FEEDBACK END             
+***********************************/              
+             
+/**********FOOTER              
+***********************************/              
+#footer {             
+    color: #fff;             
+    max-width: 100%;             
+}             
+.footer-content {             
+    background: #d1d1d1;             
+}             
+.footer-content .footer-nav {             
+    float: none;             
+    width: 100%;             
+    text-align: center;             
+}             
+.footer-content .footer-nav li {             
+    display: inline-block;             
+    padding: 0 10px;             
+}             
+.footer-content .footer-nav li a{             
+    color: #77777b;             
+}             
+.footer-content .footer-nav li a:hover{             
+    color: #eda94f;             
+}             
+.footer-content .copyright-contact {             
+    float: none;             
+    width: 100%;             
+    padding: 15px 5px;             
+    color: #77777b;             
+}             
+.footer-content .social-media {             
+    float: none;             
+    text-align: center;             
+}             
+.footer-content .social-media a{             
+    color: #77777b;             
+}             
+.footer-content .social-media a:hover{             
+    color: #eda94f;             
+}             
+/**********FOOTER END             
+***********************************/              
+             
+/**********ADS              
+***********************************/              
+             
+             
+             
+/**********ADS END             
+***********************************/             
+             
+/**********MEDIA QUERIES                                   
+***********************************/                                    
+@media (max-width: 1200px){                                   
+.header-content .call-to-action {                                   
+    right: 10px;                                   
+}                            
+#hero .site-name-tag h1{                        
+font-size: 2.5em;                        
+}                               
+#featured-jobs .interior {                                   
+    background: none;                                   
+    padding: 0px 10px;                                   
+}                                   
+.home-page .header-content #menu {                                   
+    right: 135px;                                   
+}                                   
+.hero-expanded {                                   
+    height: 450px;                                   
+}                                   
+#hero {                                   
+    height: 452px;                                   
+}                                   
+#hero .site-name-tag {                                   
+    top: 190px;                                   
+}                                   
+.category-header h2 {                                   
+    padding-left: 10px;                                   
+}                                   
+#featured-job-listing .secondary {                                   
+    margin-right: 10px;                                   
+}                                   
+}                                   
+                                   
+@media (max-width: 960px){                                   
+#featured-job-listing ul {                                   
+    column-count: 1;                                   
+}                                   
+#featured-job-listing ul li {                                   
+    padding: 10px 0;                                   
+}                                   
+                                  
+/*nav tragger*/                                                 
+.header-content #menu {                                                 
+    position: relative;                                   
+    float: none;                                   
+    top: 0;                                   
+    left: auto;                                   
+    width: 100%;                                   
+    margin: 0;                                   
+    padding: 0;                                   
+    right: 0;                                     
+    transform: none;                                     
+    z-index: 999;                                             
+}                                        
+.header-content #menu>ul>li {                                                 
+    float: none;                                                 
+    width: 100%;                                                 
+    clear: both;                                                 
+    display: block;                                                 
+    text-align: center;                                                 
+}                                      
+.header-content #menu .mobile-hide {                                        
+        display: none;                                        
+ }                                         
+#featured-job-listing ul li:nth-child(3) { 
+ 
+    border-bottom: 1px solid #ccc; 
+}                                               
+.header-content #menu #nav-trigger {                                   
+    display: block;                                   
+    position: relative;                                   
+    cursor: pointer;                                   
+    float: right;                                   
+    text-decoration: none;                                   
+     margin-right: 10px;                                   
+    background: #5b933a;                                   
+    font-size: 1.1em;                                   
+    padding: 7px 25px;                                   
+    margin-top: 30px;                                   
+    color: #fff;                                   
+}                                    
+.home-page .header-content #menu #nav-trigger {                                   
+margin-right: 155px;                                   
+}                                   
+.header-content #menu #nav-trigger:hover {                                   
+    background-color: #bfbfbf;                           
+color: #333;                                
+}                                          
+.header-content #menu #nav-trigger:before {                                   
+    content: "MENU";                                   
+    display: inline-block;                                   
+    padding-right: 2px;                                   
+}                                      
+.header-content #menu ul {                                      
+        float: none;                                      
+        display: none;                                      
+        height: 100%;                                      
+        width: 100%;                                      
+        box-sizing: border-box;                                      
+}                                               
+.header-content #menu ul li ul {                                                 
+    margin-left: 0;                                      
+        width: 100%;                                      
+        float: none;                                      
+        display: block;                                      
+        background-color: ;                                   
+        box-shadow: none;                                      
+        border: 0;                                      
+        padding: 0;                                     
+    position: static;                                                
+}                                                 
+  .header-content #menu li {                                      
+        position: static;                                      
+        clear: both;                                      
+    }                                              
+.header-content #menu li ul {                                      
+        float: none;                                      
+        display: block;                                      
+        height: 100%;                                      
+        width: 100%;                                      
+        position: static;                                      
+        padding: 0;                                      
+                                                 
+    }                                     
+.header-content #menu li ul .collapse {                                   
+    display: block;                                   
+    border: none;                                   
+    background-color: #fff;                                   
+    font-size: 16px;                                   
+    padding: 10px;                                   
+    margin: 0;                                   
+    color: #000;                                   
+    text-align: left;                                   
+}                                    
+.header-content #menu ul li:first-child ul {                                   
+    border-top: 1px solid #444444;                                   
+}                                   
+.header-content .call-to-action {                                   
+    top: 30px;                                   
+    transform: none;                                   
+}                                   
+.home-page .header-content #menu {                                   
+    right: 0;                                   
+}                                   
+.header-content #menu {                                   
+    right: 0;                                   
+}                                      
+}                                   
+                                   
+@media (max-width: 850px){                                   
+#featured-job-listing ul {                                   
+    padding: 10px;                                   
+}                                   
+.featured-job-promo:after {                                   
+    width: 80%;                                   
+    height: 200px;                                   
+}                                   
+.featured-job-promo:before {                                   
+    left: 0;                                   
+}                                   
+                                   
+}                                   
+                                   
+@media (max-width: 768px){                 
+.hero-expanded {                 
+    height: 454px;                 
+}                                   
+#header {                          
+    box-shadow: none;                                   
+}                                   
+.translator-tool-header {                                   
+    clear: both;                                   
+    margin-top: 35px;                                   
+}                                     
+section#blank-module {                                   
+    text-align: center;                                   
+}                                   
+.home-page .featured-job-promo {                                   
+    float: none;                                   
+    display: block;                                   
+    width: 100%;                                   
+    max-width: 100%;                                   
+    height: auto;                                   
+    margin: 20px 0;                                   
+    margin: 0;                                   
+    clear: both;                                   
+    margin-top: 40px;                                   
+    background: transparent;                                   
+}                                   
+.home-page .header-content #logo {                                   
+    padding-top: 60px;                                   
+}                                   
+#featured-job-listing {                                   
+    width: 100%;                                   
+    background: transparent;                                   
+    text-align: center;                                   
+    padding-bottom: 30px;                                   
+}                                   
+#featured-jobs .interior {                                   
+    padding: 0px;                                   
+}                                   
+#featured-job-listing ul {                                   
+    padding: 10px;                                   
+}                                   
+.footer-content .social-media li {                                   
+    display: inline-block;                                   
+}                                   
+.header-content .call-to-action {                                   
+    font-size: 1.1em;                                   
+}                                   
+.header-content #menu ul li {                                   
+    width: auto;                                   
+}                                   
+#featured-jobs .category-header h2 {                                   
+    padding-left: 0px;                                   
+    text-align: center;                                   
+}                                   
+#featured-job-listing ul li:nth-child(4) {                                   
+    border-bottom: 1px solid #ccc;                                   
+}                                   
+#featured-job-listing ul {                                   
+    column-count: 1;                                   
+    text-align: center;                                   
+    padding: 10px 30px;                                   
+}                                   
+#featured-job-listing .secondary {                                   
+    margin-right: 0;                                   
+    margin: auto;                                   
+    float: none;                                   
+}                                   
+#main-content {                                   
+    margin-top: 50px;                                   
+}                                   
+.home-page #main-content {                                   
+    margin-top: 20px;                                   
+}                                   
+.home-page .header-content #menu #nav-trigger {                                   
+    margin-right: 0;                                   
+}                                   
+                                   
+.header-content #menu #nav-trigger {                                   
+    display: block;                                   
+    float: none;                                   
+    margin-right: auto;                                   
+    font-size: 1.1em;                                   
+    margin-top: 0px;                                   
+    color: #fff;                                   
+    clear: both;                                   
+    margin: auto;                                   
+    text-align: right;                                   
+    position: absolute;                                   
+    right: 0;                                   
+    width: 100%;                                   
+}                                   
+.header-content .call-to-action {                                   
+    top: 10px;                                   
+    transform: none;                                   
+    width: auto;                                   
+}                                   
+.header-content #logo {                                   
+    padding-right: 0px;                                   
+    float: none;                                   
+    margin: auto;                                   
+    display: block;                                   
+    float: none;                                   
+    padding-top: 40px;                                   
+    padding-left: 0;                                   
+}                                   
+.header-content #menu ul li:first-child ul {                                   
+    border-top: none;                                   
+    margin-top: 38px;                                   
+}                                   
+.header-content #menu #nav-trigger:hover {                                   
+    opacity: 1;                                   
+                                     
+}                                   
+}                                   
+@media (max-width: 480px){       
+#home-page section, .home-page #main-content{      
+    padding-top: 0;     
+margin-top: 0;      
+}              
+#featured-employers .interior p{             
+    display: none;             
+}               
+#home-page #job-alert-search-form.expanded-img fieldset {             
+    background: #0082cb;             
+}                    
+#home-page #job-alert-search-form fieldset .form-button button.primary{                      
+background: #fff;                      
+color: #0082cb;                 
+border-color: #fff;                  
+}                  
+#home-page #job-alert-search-form fieldset .form-content .form-content-bottom .checkbox-container{             
+    color: #fff;             
+}                   
+#home-page #job-alert-search-form.expanded-img fieldset .form-content .form-content-bottom .checkbox-container .checkmark::after {             
+    border-color: #333;             
+}             
+#home-page #job-alert-search-form fieldset .form-button button.primary:hover{                      
+background: #555;             
+color: #fff;             
+border-color: #555;                    
+}                               
+#hero #job-search-form form {                                   
+    background: #0082cb;                                   
+}                                   
+.hero-expanded:before {                                   
+    display: none;                                   
+}                                   
+#featured-job-listing ul {                                   
+    padding: 5px;                                   
+}                                   
+#home-page .featured-job-promo {                                   
+    margin: 0;                                   
+    clear: both;                                   
+    margin-top: 40px;                                   
+}                                   
+#featured-employers .call-to-action .secondary {                                   
+    width: auto;                                   
+}                                   
+#featured-employers .call-to-action {                                   
+    margin-bottom: 30px;                                   
+}                                   
+.featured-job-promo:after {                                   
+    width: 100%;                                   
+}                                   
+#featured-job-listing .secondary {                                   
+    display: inline-block;                                   
+    width: auto;                                   
+}                                   
+ .hero-expanded {                                   
+    display: none;                                   
+}                                   
+#hero {                                   
+    background: transparent;                                   
+    height: auto;                                   
+    padding: 0;                           
+padding-bottom: 15px;                                
+}                                   
+#hero .site-name-tag {                                   
+    text-align: center;                                   
+    left: 0;                                   
+    background: transparent;                                   
+    padding: 20px 5px;                                   
+    top: 0;                                   
+}                                   
+#hero .site-name-tag h1 {                                   
+    color: #444444;                                   
+    font-size: 2em;                                   
+    text-shadow: none;                                   
+}                                   
+#hero .site-name-tag em {                                   
+    color: #444444;                                   
+    text-shadow: none;                        
+font-size: 1.4em;                                   
+}                                   
+#home-page #featured-jobs {                                   
+    padding-top: 30px;                                   
+}                                   
+.header-content #menu ul li ul li {                                   
+    border-bottom: none;                                   
+}                                   
+}                                   
+                                   
+/**********MEDIA QUERIES END                                    
+***********************************/
